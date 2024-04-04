@@ -20,7 +20,7 @@ function Navbar() {
             <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-black">Muhammad Ishar</span>
         </Link>
         <div className="flex md:order-2">
-            <button src="contect" type="button" className="text-white bg-black hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-black dark:hover:bg-gray-400 hover:text-black dark:focus:ring-blue-800">Contact Now</button>
+            <button src="contect" type="button" className="text-white bg-black hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-black dark:hover:bg-gray-400 hover:text-black dark:focus:ring-blue-800">Contact Now</button>
             <button data-collapse-toggle="navbar-cta " type="button" className="inline-flex items-center p-2 text-sm text-gray-900 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 
             bg-black
             focus:ring-gray-200 dark:text-gray-100 

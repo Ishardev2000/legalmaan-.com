@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 // import App from './App.jsx'
@@ -15,7 +16,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<Layout />}>
-        <Route path="home" element={<Home />} />
+        <Route path="/Home" element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="portfolio" element={<Portfolio />} />
         <Route path="design" element={<Designform />} />
