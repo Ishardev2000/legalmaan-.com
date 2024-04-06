@@ -13,7 +13,7 @@ function Navbar() {
   return (
     <section className="bg-[#fefafa]">
       <nav
-        className="bg-[#fefafa] border-gray-200 px-2 sm:px-4 py-2.5 rounded 
+        className="bg-[#fefafa] border-gray-200 px-2 sm:px-4  py-1 rounded 
     "
       >
         <div className="container flex flex-wrap justify-between items-center mx-auto">
@@ -70,11 +70,11 @@ function Navbar() {
             } flex-col mt-4 md:flex md:flex-row md:mt-0 md:text-sm md:font-medium w-full md:w-auto`}
             id="navbar-cta"
           >
-            <ul className="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-[#fefafa]">
+            <ul className="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-100 md:dark:bg-[#fefafa]">
               <li>
                 <Link
                   to="/"
-                  className="text-lg block py-2 pr-4 pl-3 text-black rounded hover:bg-gray-300 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-black dark:hover:text-gray-700"
+                  className="text-base  block py-2 pr-4 pl-3 text-black rounded hover:bg-gray-300 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-black dark:hover:text-gray-700"
                   aria-current="page"
                 >
                   Home
@@ -83,7 +83,7 @@ function Navbar() {
               <li>
                 <Link
                   to="about"
-                  className=" text-lg  block py-2 pr-4 pl-3 text-black rounded hover:bg-gray-300 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-black dark:hover:text-gray-700"
+                  className=" text-base   block py-2 pr-4 pl-3 text-black rounded hover:bg-gray-300 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-black dark:hover:text-gray-700"
                 >
                   About
                 </Link>
@@ -91,7 +91,7 @@ function Navbar() {
               <li>
                 <Link
                   to="portfolio"
-                  className=" text-lg  block py-2 pr-4 pl-3 text-black rounded hover:bg-gray-300 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-black dark:hover:text-gray-700"
+                  className=" text-base   block py-2 pr-4 pl-3 text-black rounded hover:bg-gray-300 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-black dark:hover:text-gray-700"
                 >
                   Portfolio
                 </Link>
@@ -99,7 +99,7 @@ function Navbar() {
               <li>
                 <Link
                   to="form"
-                  className=" text-lg  block py-2 pr-4 pl-3 text-black rounded hover:bg-gray-300 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-black dark:hover:text-gray-700"
+                  className=" text-base   block py-2 pr-4 pl-3 text-black rounded hover:bg-gray-300 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-black dark:hover:text-gray-700"
                 >
                   TM Form
                 </Link>
@@ -107,7 +107,7 @@ function Navbar() {
               <li>
                 <Link
                   to="contect"
-                  className=" text-lg  block py-2 pr-4 pl-3 text-black rounded hover:bg-gray-300 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-black dark:hover:text-gray-700"
+                  className=" text-base  block py-2 pr-4 pl-3 text-black rounded hover:bg-gray-300 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-black dark:hover:text-gray-700"
                 >
                   Contact
                 </Link>
