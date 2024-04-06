@@ -12,11 +12,12 @@ import Portfolio from './Pages/Portfolio'
 import Home from './Pages/Home'
 import Layout from "./layout.jsx";
 
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<Layout />}>
-        <Route path="/Home" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="portfolio" element={<Portfolio />} />
         <Route path="design" element={<Designform />} />
