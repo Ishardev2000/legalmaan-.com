@@ -1,5 +1,7 @@
 import React from "react";
-
+import Card from "../Cardscomponents/Card";
+import Clientscard from "../Cardscomponents/Clientscard";
+import Btn from "../Cardscomponents/Btn";
 function Home() {
   return (
     <>
@@ -9,19 +11,15 @@ function Home() {
           <div className="container mx-auto  flex px-10 py-19 md:flex-row flex-col items-center">
             <div className="ml-15 lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-20 md:mb-0 items-center text-center">
               <h1 className="title-font sm:text-7xl text- mb-15 font-bold font-serif text-gray-900 ">
-                <b > Hey, I'm Yamman </b>
+                <b> Hey, I'm Yamman </b>
               </h1>
+
               <h3 className="mt-12 leading-relaxed title-font sm:text-4xl font-medium text-3xl mb-15  text-gray-900 ">
                 Legally Protect YOU and Your BUSINESS
               </h3>
               <div className="flex justify-center">
-                <button
-                  src="contect"
-                  type="button"
-                  className="text-white bg-black hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium mt-9 rounded-full text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-black dark:hover:bg-gray-400 hover:text-black dark:focus:ring-blue-800"
-                >
-                  Contact Now
-                </button>
+                {/* Import btn */}
+                <Btn btnText={'Contect Me'} />
               </div>
             </div>
             <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
@@ -55,14 +53,8 @@ function Home() {
             </p>
             <br /> <b> Connect to Protect Yourself and Your Business! </b>
             <div className="flex justify-center">
-                <button
-                  src="contect"
-                  type="button"
-                  className="text-white bg-black hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium mt-9 rounded-full text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-black dark:hover:bg-gray-400 hover:text-black dark:focus:ring-blue-800"
-                >
-                  Contact Now
-                </button>
-              </div>
+              <Btn btnText={'Contect Me'} />
+            </div>
           </div>
         </section>
 
@@ -75,161 +67,13 @@ function Home() {
                 What Services I'm Providing
               </h2>
               <ul className="mt-20 grid gap-y-28	 grid-cols-1 gap-6 text-center text-slate-700 md:grid-cols-3">
-                <li className="rounded-xl bg-white px-8 py-12 shadow-sm">
-                  <a href="#" className="group">
-                    <img
-                      src="https://www.svgrepo.com/show/530453/mail-reception.svg"
-                      alt=""
-                      className="mx-auto h-20 w-20"
-                    />
-                    <h3 className="my-3 font-display font-medium group-hover:text-primary-500">
-                      TradeMark Attorney
-                    </h3>
-                    <p className="mt-1.5 text-sm leading-6 text-secondary-500">
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Accusantium minus consequuntur accusamus, aut atque nisi
-                      modi optio ea, eveniet alias porro facere voluptatem id.
-                      Reiciendis amet blanditiis, nulla eos optio deleniti
-                      deserunt tenetur qui possimus nisi quisquam odit
-                      laboriosam.
-                    </p>
-                    <img
-                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSQ9QLI9GEl_HghDDM3WfeC0MMnzWvW9qeq-S4UImCiQ&s"
-                      alt=""
-                      className="mx-auto mt-5 h-10 w-10"
-                    />
-                  </a>
-                </li>
-
-                <li className="rounded-xl bg-white px-8 py-12 shadow-sm">
-                  <a href="#" className="group">
-                    <img
-                      src="https://www.svgrepo.com/show/530453/mail-reception.svg"
-                      alt=""
-                      className="mx-auto h-20 w-20"
-                    />
-                    <h3 className="my-3 font-display font-medium group-hover:text-primary-500">
-                      TradeMark Attorney
-                    </h3>
-                    <p className="mt-1.5 text-sm leading-6 text-secondary-500">
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Accusantium minus consequuntur accusamus, aut atque nisi
-                      modi optio ea, eveniet alias porro facere voluptatem id.
-                      Reiciendis amet blanditiis, nulla eos optio deleniti
-                      deserunt tenetur qui possimus nisi quisquam odit
-                      laboriosam.
-                    </p>
-                    <img
-                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSQ9QLI9GEl_HghDDM3WfeC0MMnzWvW9qeq-S4UImCiQ&s"
-                      alt=""
-                      className="mx-auto mt-5 h-10 w-10"
-                    />
-                  </a>
-                </li>
-
-                <li className="rounded-xl bg-white px-8 py-12 shadow-sm">
-                  <a href="#" className="group">
-                    <img
-                      src="https://www.svgrepo.com/show/530453/mail-reception.svg"
-                      alt=""
-                      className="mx-auto h-20 w-20"
-                    />
-                    <h3 className="my-3 font-display font-medium group-hover:text-primary-500">
-                      TradeMark Attorney
-                    </h3>
-                    <p className="mt-1.5 text-sm leading-6 text-secondary-500">
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Accusantium minus consequuntur accusamus, aut atque nisi
-                      modi optio ea, eveniet alias porro facere voluptatem id.
-                      Reiciendis amet blanditiis, nulla eos optio deleniti
-                      deserunt tenetur qui possimus nisi quisquam odit
-                      laboriosam.
-                    </p>
-                    <img
-                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSQ9QLI9GEl_HghDDM3WfeC0MMnzWvW9qeq-S4UImCiQ&s"
-                      alt=""
-                      className="mx-auto mt-5 h-10 w-10"
-                    />
-                  </a>
-                </li>
-
-                <li className="rounded-xl bg-white px-8 py-12 shadow-sm">
-                  <a href="#" className="group">
-                    <img
-                      src="https://www.svgrepo.com/show/530453/mail-reception.svg"
-                      alt=""
-                      className="mx-auto h-20 w-20"
-                    />
-                    <h3 className="my-3 font-display font-medium group-hover:text-primary-500">
-                      TradeMark Attorney
-                    </h3>
-                    <p className="mt-1.5 text-sm leading-6 text-secondary-500">
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Accusantium minus consequuntur accusamus, aut atque nisi
-                      modi optio ea, eveniet alias porro facere voluptatem id.
-                      Reiciendis amet blanditiis, nulla eos optio deleniti
-                      deserunt tenetur qui possimus nisi quisquam odit
-                      laboriosam.
-                    </p>
-                    <img
-                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSQ9QLI9GEl_HghDDM3WfeC0MMnzWvW9qeq-S4UImCiQ&s"
-                      alt=""
-                      className="mx-auto mt-5 h-10 w-10"
-                    />
-                  </a>
-                </li>
-
-                <li className="rounded-xl bg-white px-8 py-12 shadow-sm">
-                  <a href="#" className="group">
-                    <img
-                      src="https://www.svgrepo.com/show/530453/mail-reception.svg"
-                      alt=""
-                      className="mx-auto h-20 w-20"
-                    />
-                    <h3 className="my-3 font-display font-medium group-hover:text-primary-500">
-                      TradeMark Attorney
-                    </h3>
-                    <p className="mt-1.5 text-sm leading-6 text-secondary-500">
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Accusantium minus consequuntur accusamus, aut atque nisi
-                      modi optio ea, eveniet alias porro facere voluptatem id.
-                      Reiciendis amet blanditiis, nulla eos optio deleniti
-                      deserunt tenetur qui possimus nisi quisquam odit
-                      laboriosam.
-                    </p>
-                    <img
-                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSQ9QLI9GEl_HghDDM3WfeC0MMnzWvW9qeq-S4UImCiQ&s"
-                      alt=""
-                      className="mx-auto mt-5 h-10 w-10"
-                    />
-                  </a>
-                </li>
-
-                <li className="rounded-xl bg-white px-8 py-12 shadow-sm">
-                  <a href="#" className="group">
-                    <img
-                      src="https://www.svgrepo.com/show/530453/mail-reception.svg"
-                      alt=""
-                      className="mx-auto h-20 w-20"
-                    />
-                    <h3 className="my-3 font-display font-medium group-hover:text-primary-500">
-                      TradeMark Attorney
-                    </h3>
-                    <p className="mt-1.5 text-sm leading-6 text-secondary-500">
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Accusantium minus consequuntur accusamus, aut atque nisi
-                      modi optio ea, eveniet alias porro facere voluptatem id.
-                      Reiciendis amet blanditiis, nulla eos optio deleniti
-                      deserunt tenetur qui possimus nisi quisquam odit
-                      laboriosam.
-                    </p>
-                    <img
-                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSQ9QLI9GEl_HghDDM3WfeC0MMnzWvW9qeq-S4UImCiQ&s"
-                      alt=""
-                      className="mx-auto mt-5 h-10 w-10"
-                    />
-                  </a>
-                </li>
+                {/* addd cards */}
+                <Card username={'Yamman Muhammad'} />
+                <Card username={'Yamman Muhammad'} />
+                <Card username={'Yamman Muhammad'} />
+                <Card username={'Yamman Muhammad'} />
+                <Card username={'Yamman Muhammad'} />
+                <Card username={'Yamman Muhammad'} />
               </ul>
             </div>
           </div>
@@ -335,81 +179,22 @@ function Home() {
               </div>
             </div>
           </div>
-        </section >
+        </section>
 
+        {/* What Our Clients  cards*/}
         <section className="py-32 -mt-24 ">
           <div className="container   mx-auto px-20">
             <h2 className="text-5xl py-10 font-bold text-gray-800 text-center font-serif mb-8">
               What Our Clients Say
             </h2>
             <div className="grid items-center md:grid-cols-3 gap-8 justify-center">
-              {/* Client Testimonials */}
-
-              <div className="bg-white rounded-3xl h-72 w-80 shadow-lg p-14">
-                <p className="text-gray-700">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Velit harum eos quos soluta dignissimos unde. Eveniet sit nam
-                  quia quaerat consectetur dignissimos.
-                </p>
-                <h3 className="text-lg font-semibold text-gray-800 mt-4">
-                  Client Name
-                </h3>
-              </div>
-
-              <div className="bg-white rounded-3xl h-72 w-80 shadow-lg p-14">
-                <p className="text-gray-700">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Velit harum eos quos soluta dignissimos unde. Eveniet sit nam
-                  quia quaerat consectetur dignissimos.
-                </p>
-                <h3 className="text-lg font-semibold text-gray-800 mt-4">
-                  Client Name
-                </h3>
-              </div>
-
-              <div className="bg-white rounded-3xl h-72 w-80 shadow-lg flex-wrap p-14">
-                <p className="text-gray-700">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Velit harum eos quos soluta dignissimos unde. Eveniet sit nam
-                  quia quaerat consectetur dignissimos.
-                </p>
-                <h3 className="text-lg font-semibold text-gray-800 mt-4">
-                  Client Name
-                </h3>
-              </div>
-
-              <div className="bg-white rounded-3xl h-72 w-80 shadow-lg p-14">
-                <p className="text-gray-700">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Velit harum eos quos soluta dignissimos unde. Eveniet sit nam
-                  quia quaerat consectetur dignissimos.
-                </p>
-                <h3 className="text-lg font-semibold text-gray-800 mt-4">
-                  Client Name
-                </h3>
-              </div>
-
-              <div className="bg-white rounded-3xl h-72 w-80 shadow-lg p-14">
-                <p className="text-gray-700">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Velit harum eos quos soluta dignissimos unde. Eveniet sit nam
-                  quia quaerat consectetur dignissimos.
-                </p>
-                <h3 className="text-lg font-semibold text-gray-800 mt-4">
-                  Client Name
-                </h3>
-              </div>
-
-              <div className="bg-white rounded-3xl h-72 w-80 shadow-lg p-14">
-                <p className="text-gray-700">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Velit harum eos quos soluta dignissimos unde. Eveniet sit nam
-                  quia quaerat consectetur dignissimos.
-                </p>
-                <h3 className="text-lg font-semibold text-gray-800 mt-4">
-                  Client Name
-                </h3>
-              </div>
+              {/* addd cards */}
+              <Clientscard clintName={"Maan Khan"} />
+              <Clientscard clintName={"Maan Khan"} />
+              <Clientscard clintName={"Maan Khan"} />
+              <Clientscard clintName={"Maan Khan"} />
+              <Clientscard clintName={"Maan Khan"} />
+              <Clientscard clintName={"Maan Khan"} />
             </div>
           </div>
         </section>

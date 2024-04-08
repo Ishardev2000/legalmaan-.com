@@ -19,7 +19,7 @@ function Navbar() {
         <div className="container flex flex-wrap justify-between items-center mx-auto">
           <Link to="/" className="flex items-center">
             <img
-              src="https://www.shutterstock.com/image-vector/vector-logo-letter-m-260nw-491733976.jpg"
+              src="https://st4.depositphotos.com/4263287/27951/v/450/depositphotos_279519978-stock-illustration-joined-or-connected-mi-m.jpg"
               className="mr-3 h-6 sm:h-9"
               alt="Flowbite Logo"
             />

@@ -72,11 +72,10 @@ function Footer() {
         </a> */}
         </div>
       </footer>
-        <p className="flex justify-center p-6 text-center text-gray-300 font-medium"> <b>
-
-          &copy; 2022 Company Ltd. All rights reserved.
-        </b>
-        </p>
+      <p className="flex justify-center p-6 text-center text-gray-300 font-medium">
+        {" "}
+        <b>&copy; 2022 Company Ltd. All rights reserved.</b>
+      </p>
     </section>
   );
 }
