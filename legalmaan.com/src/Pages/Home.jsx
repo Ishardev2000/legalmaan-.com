@@ -19,7 +19,7 @@ function Home() {
               </h3>
               <div className="flex justify-center">
                 {/* Import btn */}
-                <Btn btnText={'Contect Me'} />
+                <Btn btnText={"Contect Me"} />
               </div>
             </div>
             <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
@@ -53,7 +53,7 @@ function Home() {
             </p>
             <br /> <b> Connect to Protect Yourself and Your Business! </b>
             <div className="flex justify-center">
-              <Btn btnText={'Contect Me'} />
+              <Btn btnText={"Contect Me"} />
             </div>
           </div>
         </section>
@@ -68,12 +68,12 @@ function Home() {
               </h2>
               <ul className="mt-20 grid gap-y-28	 grid-cols-1 gap-6 text-center text-slate-700 md:grid-cols-3">
                 {/* addd cards */}
-                <Card username={'Yamman Muhammad'} />
-                <Card username={'Yamman Muhammad'} />
-                <Card username={'Yamman Muhammad'} />
-                <Card username={'Yamman Muhammad'} />
-                <Card username={'Yamman Muhammad'} />
-                <Card username={'Yamman Muhammad'} />
+                <Card username={"Yamman Muhammad"} />
+                <Card username={"Yamman Muhammad"} />
+                <Card username={"Yamman Muhammad"} />
+                <Card username={"Yamman Muhammad"} />
+                <Card username={"Yamman Muhammad"} />
+                <Card username={"Yamman Muhammad"} />
               </ul>
             </div>
           </div>

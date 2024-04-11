@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom/client'
 // import App from './App.jsx'
 import './index.css'
 import About from './Pages/About'
-import Contect from './Pages/Contect'
+import Contact from './Pages/Contact'
 import Designform from './Pages/Designform'
 import TMform from './Pages/TMform'
 import Portfolio from './Pages/Portfolio'
@@ -22,7 +22,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="portfolio" element={<Portfolio />} />
         <Route path="design" element={<Designform />} />
         <Route path="form" element={<TMform />} />
-        <Route path="contect" element={<Contect />} />
+        <Route path="contact" element={<Contact />} />
       </Route>
     </Routes>
   </BrowserRouter>

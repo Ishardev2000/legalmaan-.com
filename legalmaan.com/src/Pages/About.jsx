@@ -28,21 +28,21 @@ function About() {
         </div>
       </div>
       <br />
-      <div class="bg-[#fefafa] border-b">
-        <div class="py-8 px-6 sm:px-6 sm:py-20">
-          <div class="mx-auto max-w-screen-lg text-center">
+      <div className="bg-[#fefafa] border-b">
+        <div className="py-8 px-6 sm:px-6 sm:py-20">
+          <div className="mx-auto max-w-screen-lg text-center">
           <h2 className="text-5xl py-10 font-bold text-gray-800 text-center font-serif mb-8">
               What Our Clients Say
             </h2>
-            <p class="mx-auto mt-3 sm:mt-6 text-md sm:text-lg sm:leading-snug   text-gray-800 dark:text-gray-900">
+            <p className="mx-auto mt-3 sm:mt-6 text-md sm:text-lg sm:leading-snug   text-gray-800 dark:text-gray-900">
              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil suscipit laboriosam rem aperiam sint consequatur, perferendis distinctio ipsum temporibus deserunt, assumenda amet laborum <br /> pariatur dolores qui! Soluta, modi. Accusantium dolorem itaque neque! Vero natus nisi aut, sed non tempore qui voluptas expedita deserunt temporibus labore ex doloribus recusandae? Perspiciatis, iste.
              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio fugit perspiciatis explicabo 
              <br />
               voluptatum animi atque, tempora unde sequi quo culpa enim eveniet incidunt voluptatem voluptates quos nam? Ea, impedit eaque?Lorem ipsum <br /> dolor sit amet consectetur adipisicing elit.  Sit corporis ex, amet aspernatur reiciendis mollitia <br /> totam dolorem ad cumque culpa! Blanditiis iste quibusdam iusto <br /> <br /> tenetur ea itaque odit consequatur reprehenderit.
             </p>
-            <div class="mt-6 sm:mt-10 flex items-center justify-center gap-x-6">
+            <div className="mt-6 sm:mt-10 flex items-center justify-center gap-x-6">
               <a
-                class="flex flex-row items-center justify-center min-w-[130px] px-4 rounded-full font-medium tracking-wide border disabled:cursor-not-allowed disabled:opacity-50 transition ease-in-out duration-150 text-base bg-black text-white font-medium tracking-wide border-transparent py-1.5 h-[38px] text-sm py-6 px-8"
+                className="flex flex-row items-center justify-center min-w-[130px] px-4 rounded-full font-medium tracking-wide border disabled:cursor-not-allowed disabled:opacity-50 transition ease-in-out duration-150 text-base bg-black text-white font-medium tracking-wide border-transparent py-1.5 h-[38px] text-sm py-6 px-8"
                 href=""
               >
                 <b>More About Me</b>

@@ -22,7 +22,7 @@ function Footer() {
             TMform
           </Link>
           <Link className="hover:text-gray-400" to="/contact">
-            Contact
+          Contact
           </Link>
         </nav>
 

@@ -47,9 +47,7 @@ function Portfolio() {
                         DAPP Development
                       </h3>
                     </div>
-                    <p className="mt-3 mb-1 text-xs font-medium text-indigo-500 uppercase">
-                      ------------
-                    </p>
+                    <p className="mt-3 mb-1 text-xs font-medium text-indigo-500 uppercase"></p>
                     <p className="mb-2 text-gray-600">
                       A decentralized application (dapp) is an application built
                       on a decentralized network that combines a smart contract
@@ -67,9 +65,7 @@ function Portfolio() {
                         Web 3.0 Development
                       </h3>
                     </div>
-                    <p className="mt-3 mb-1 text-xs font-medium text-purple-500 uppercase">
-                      ------------
-                    </p>
+                    <p className="mt-3 mb-1 text-xs font-medium text-purple-500 uppercase"></p>
                     <p className="mb-2 text-gray-600">
                       Web 3.0 is the third generation of Internet services that
                       will focus on understanding and analyzing data to provide
@@ -89,9 +85,7 @@ function Portfolio() {
                         Project Audit
                       </h3>
                     </div>
-                    <p className="mt-3 mb-1 text-xs font-medium text-blue-400 uppercase">
-                      ------------
-                    </p>
+                    <p className="mt-3 mb-1 text-xs font-medium text-blue-400 uppercase"></p>
                     <p className="mb-2 text-gray-600">
                       A Project Audit is a formal review of a project, which is
                       intended to assess the extent up to which project
@@ -109,9 +103,7 @@ function Portfolio() {
                         Hacking / RE
                       </h3>
                     </div>
-                    <p className="mt-3 mb-1 text-xs font-medium text-yellow-400 uppercase">
-                      ------------
-                    </p>
+                    <p className="mt-3 mb-1 text-xs font-medium text-yellow-400 uppercase"></p>
                     <p className="mb-2 text-gray-600">
                       A security hacker is someone who explores methods for
                       breaching defenses and exploiting weaknesses in a computer
@@ -129,9 +121,7 @@ function Portfolio() {
                         Bot/Script Development
                       </h3>
                     </div>
-                    <p className="mt-3 mb-1 text-xs font-medium text-green-500 uppercase">
-                      ------------
-                    </p>
+                    <p className="mt-3 mb-1 text-xs font-medium text-green-500 uppercase"></p>
                     <p className="mb-2 text-gray-600">
                       Bot development frameworks were created as advanced
                       software tools that eliminate a large amount of manual
@@ -147,81 +137,54 @@ function Portfolio() {
 
       {/* gullury img */}
       <section>
-
-
-
-      
-<div className="max-w-screen-2xl mx-auto px-4 py-16 lg:py-24 relative bg-gray-50">
-    <div className="flex flex-col md:flex-row gap-2">
-        <div className="flex flex-1 flex-col gap-2">
-            <div className="flex flex-1 flex-col">
-              
-                <img className="object-cover h-full" src="https://images.unsplash.com/photo-1665689285334-b0044b6d2dc7?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjY0NjAxMTY&ixlib=rb-4.0.3&q=80" />
-            </div>
-            <div className="hidden md:flex flex-1 flex-row gap-2">
+        <div className="max-w-screen-2xl mx-auto px-4 py-16 lg:py-24 relative bg-gray-50">
+          <div className="flex flex-col md:flex-row gap-2">
+            <div className="flex flex-1 flex-col gap-2">
+              <div className="flex flex-1 flex-col">
+                <img
+                  className="object-cover h-full"
+                  src="https://images.unsplash.com/photo-1665689285334-b0044b6d2dc7?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjY0NjAxMTY&ixlib=rb-4.0.3&q=80"
+                />
+              </div>
+              <div className="hidden md:flex flex-1 flex-row gap-2">
                 <div className="flex flex-1 flex-col">
-                
-                  <img className="object-cover h-full" src="https://images.unsplash.com/photo-1666433723497-38d1d053185b?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjY2NDEwNDU&ixlib=rb-4.0.3&q=80" />
+                  <img
+                    className="object-cover h-full"
+                    src="https://images.unsplash.com/photo-1666433723497-38d1d053185b?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjY2NDEwNDU&ixlib=rb-4.0.3&q=80"
+                  />
                 </div>
                 <div className="hidden md:flex flex-1 flex-col">
-                
-                  <img className="object-cover h-full" src="https://images.unsplash.com/photo-1665048110211-91d0b74c421c?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjY0NjAxMTY&ixlib=rb-4.0.3&q=80" />
+                  <img
+                    className="object-cover h-full"
+                    src="https://images.unsplash.com/photo-1665048110211-91d0b74c421c?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjY0NjAxMTY&ixlib=rb-4.0.3&q=80"
+                  />
                 </div>
+              </div>
             </div>
-        </div>
-        <div className="flex flex-1 flex-col gap-2">
-            <div className="hidden md:flex flex-1 flex-row gap-2">
+            <div className="flex flex-1 flex-col gap-2">
+              <div className="hidden md:flex flex-1 flex-row gap-2">
                 <div className="flex flex-1 flex-col">
-                
-                  <img className="object-cover h-full" src="https://images.unsplash.com/photo-1666297599033-09b318f2c8b5?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjY2NDExMjk&ixlib=rb-4.0.3&q=80" />  
+                  <img
+                    className="object-cover h-full"
+                    src="https://images.unsplash.com/photo-1666297599033-09b318f2c8b5?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjY2NDExMjk&ixlib=rb-4.0.3&q=80"
+                  />
                 </div>
                 <div className="hidden md:flex flex-1 flex-col">
-                
-                  <img className="object-cover h-full" src="https://images.unsplash.com/photo-1664713815297-9ce06950c022?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjY2NDEzMDc&ixlib=rb-4.0.3&q=80" />
+                  <img
+                    className="object-cover h-full"
+                    src="https://images.unsplash.com/photo-1664713815297-9ce06950c022?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjY2NDEzMDc&ixlib=rb-4.0.3&q=80"
+                  />
                 </div>
-            </div>                        
-            <div className="flex flex-1 flex-col">
-            
-              <img className="object-cover h-full" src="https://images.unsplash.com/photo-1666060519824-796d5638d809?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjY2NDExOTQ&ixlib=rb-4.0.3&q=80" />
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<div className="max-w-screen-2xl mx-auto px-4 py-16 lg:py-24 relative bg-white">
-    <div className="flex flex-col md:flex-row gap-2">
-        <div className="flex flex-1 flex-col">
-            <div className="flex flex-1 flex-col">
-                
-                <img className="object-cover h-full" src='https://images.unsplash.com/photo-1664764119004-999a3f80a1b8?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjY2NDEzMDc&ixlib=rb-4.0.3&q=80' alt='' />
-            </div>
-        </div>
-        <div className="flex flex-1">
-            <div className="grid grid-cols-2 gap-2">
-              <div>
-              
-                <img className="object-cover h-full" src='https://images.unsplash.com/photo-1666147775717-65fa1fe0c47b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjY2NDMxNzc&ixlib=rb-4.0.3&q=80&w=400' alt='' />
               </div>
-              <div>
-        
-                <img className="object-cover h-full" src='https://images.unsplash.com/photo-1665561741359-7af2d2fdc395?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjY2NDMxNzc&ixlib=rb-4.0.3&q=80&w=400' alt='' />
-              </div>
-              <div>
-        
-                <img className="object-cover h-full" src='https://images.unsplash.com/photo-1665391837905-74d250172dd3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjY2NDMxNzc&ixlib=rb-4.0.3&q=80&w=400' alt='' />
-              </div>
-              <div>
-        
-                <img className="object-cover h-full" src='https://images.unsplash.com/photo-1666303349374-c4cf8bc9eaaf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjY2NDMxNzc&ixlib=rb-4.0.3&q=80&w=400' alt='' />
+              <div className="flex flex-1 flex-col">
+                <img
+                  className="object-cover h-full"
+                  src="https://images.unsplash.com/photo-1666060519824-796d5638d809?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjY2NDExOTQ&ixlib=rb-4.0.3&q=80"
+                />
               </div>
             </div>
+          </div>
         </div>
-    </div>
-</div>
-
-
-
       </section>
     </>
   );
