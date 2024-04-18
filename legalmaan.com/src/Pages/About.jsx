@@ -13,9 +13,11 @@ function About() {
         </div>
 
         <div className="relative z-10 flex flex-col justify-center items-center h-full text-center">
-        <h2 className="text-5xl py-10 font-bold text-gray-800 text-center font-serif mb-8">
+        <h2 className="text-5xl py-10 font-bold text-gray-100 text-center font-serif ">
               ABOUT PAGE 
             </h2>
+            <span className="h-1 w-36  bg-gray-100"> 
+              </span>
           {/* <p className="text-lg text-gray-300 mb-8">
             Discover amazing features and services that await you.
           </p>

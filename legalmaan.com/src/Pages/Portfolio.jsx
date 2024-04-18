@@ -13,9 +13,11 @@ function Portfolio() {
         </div>
 
         <div className="relative z-10 flex flex-col justify-center items-center h-full text-center">
-          <h2 className="text-5xl py-10 font-bold text-gray-100 text-center font-serif mb-8">
+          <h2 className="text-5xl py-10 font-bold text-gray-100 text-center font-serif ">
             PORTPOLIO PAGE
           </h2>
+          <span className="h-1 w-36 bg-gray-100"> 
+              </span>
           {/* <p className="text-lg text-gray-300 mb-8">
             Discover amazing features and services that await you.
           </p>
@@ -28,7 +30,7 @@ function Portfolio() {
         </div>
       </div>
 
-      <section>
+      <section className="bg-[#fefafa]">
         <div className="container py-24 relative flex flex-col text-center justify-between h-full max-w-6xl px-10 mx-auto xl:px-0 mt-5">
           <h2 className="text-center py-9 font-display font-bold tracking-tight text-slate-900 font-serif md:text-5xl">
             My Portpolio
@@ -136,7 +138,7 @@ function Portfolio() {
       </section>
 
       {/* gullury img */}
-      <section>
+      <section className="bg-[#fefafa]">
         <div className="max-w-screen-2xl mx-auto px-4 py-16 lg:py-24 relative bg-gray-50">
           <div className="flex flex-col md:flex-row gap-2">
             <div className="flex flex-1 flex-col gap-2">

@@ -17,7 +17,7 @@ function Home() {
               <h3 className="mt-12 leading-relaxed title-font sm:text-4xl font-medium text-3xl mb-15  text-gray-900 ">
                 Legally Protect YOU and Your BUSINESS
               </h3>
-              <div className="flex justify-center">
+              <div className="flex ">
                 {/* Import btn */}
                 <Btn btnText={"Contect Me"} />
               </div>
@@ -36,9 +36,11 @@ function Home() {
         <section className="py-25 mt-20">
           <div className="flex flex-col items-center text-center justify-center h-screen p-20">
             <h1 className="text-5xl font-bold text-gray-800 mb-4 underline-offset-1 decoration-black font-serif">
-              Who I AM?
+                Who I AM?
             </h1>
-            <p className="text-gray-700 text-lg mb-8">
+             <span className="h-1 w-36 mb-10 bg-gray-900"> 
+              </span>
+            <p className="text-gray-700 text-lg mb-10">
               I have studied law at one of the prestigious law colleges & have
               always been passionate about drafting legal documents.The online
               world has helped me put my knowledge & passion into practice by
@@ -65,7 +67,9 @@ function Home() {
               {/* <p className="text-center text-base font-semibold leading-7 text-primary-500">Features</p> */}
               <h2 className="text-center font-display font-bold tracking-tight text-slate-900 font-serif md:text-5xl">
                 What Services I'm Providing
+               
               </h2>
+              
               <ul className="mt-20 grid gap-y-28	 grid-cols-1 gap-6 text-center text-slate-700 md:grid-cols-3">
                 {/* addd cards */}
                 <Card username={"Yamman Muhammad"} />

@@ -3,10 +3,12 @@ import React from "react";
 function TMform() {
   return (
     <>
+    {/* TM form */}
+    <section className="bg-[#fefafa]">
       <div className="relative bg-gradient-to-r from-purple-600 to-blue-600 h-screen text-white overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1522252234503-e356532cafd5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw2fHxjb2RlfGVufDB8MHx8fDE2OTQwOTg0MTZ8MA&ixlib=rb-4.0.3&q=80&w=1080"
+            src="https://oly.com.pk/wp-content/uploads/2018/10/1518676507_992.jpg"
             alt="Background Image"
             className="object-cover object-center w-full h-full"
           />
@@ -17,41 +19,44 @@ function TMform() {
           <h1 className="text-5xl font-bold leading-tight mb-4">
             Trade Mark Registration Form.
           </h1>
+          <span className="h-1 w-44 mt-6 bg-gray-100"></span>
         </div>
       </div>
 
       {/* forms */}
 
-      <div class="bg-white rounded-lg  relative m-10">
-        <div class="flex items-start justify-between p-5 border-b rounded-t">
-          <h3 class="text-xl font-semibold">ETrade Mark Registration Form.</h3>
+      <div className="bg-[#fefafa] rounded-lg  relative m-20">
+        <div className="flex items-start justify-between p-5 border-b rounded-t">
+          <h3 className="text-xl font-semibold">
+            ETrade Mark Registration Form.
+          </h3>
           <button
             type="button"
-            class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center"
+            className="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center"
             data-modal-toggle="product-modal"
           >
             <svg
-              class="w-5 h-5"
+              className="w-5 h-5"
               fill="currentColor"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                clip-rule="evenodd"
+                clipRule="evenodd"
               ></path>
             </svg>
           </button>
         </div>
 
-        <div class="p-6 space-y-6">
+        <div className="p-6 space-y-6">
           <form action="#">
-            <div class="grid grid-cols-6 gap-6">
-              <div class="col-span-6 sm:col-span-3">
+            <div className="grid grid-cols-6 gap-6">
+              <div className="col-span-6 sm:col-span-3">
                 <label
-                  for="first-name"
-                  class="text-sm font-medium text-gray-900 block mb-2"
+                  htmlFor="first-name"
+                  className="text-sm font-medium text-gray-900 block mb-5"
                 >
                   <b>First Name</b>
                 </label>
@@ -59,15 +64,15 @@ function TMform() {
                   type="text"
                   name="first-name"
                   id="first-name"
-                  class="shadow-sm bg-gray-50 border text-gray-900 sm:text-sm rounded-lg focus:ring-cyan-600 focus:border-cyan-600 block w-full py-4 mb-6 placeholder:text-gray-700 pl-8 placeholder:text-base"
+                  className="  w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none mb-5 focus:border-[#6A64F1] focus:shadow-md"
                   placeholder=" Enter Your frist name"
                   required=""
                 />
               </div>
-              <div class="col-span-6 sm:col-span-3">
+              <div className="col-span-6 sm:col-span-3">
                 <label
-                  for="list-name"
-                  class="text-sm font-medium text-gray-900 block mb-2"
+                  htmlFor="list-name"
+                  className="text-sm font-medium text-gray-900 block mb-5"
                 >
                   <b>List Name</b>
                 </label>
@@ -75,16 +80,16 @@ function TMform() {
                   type="text"
                   name="list-name"
                   id="list-name"
-                  class="shadow-sm bg-gray-50 border  text-gray-900 sm:text-sm rounded-lg focus:ring-cyan-600 focus:border-cyan-600 block w-full py-4 mb-6  placeholder:text-gray-700 pl-8 placeholder:text-base"
+                  className="  w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none mb-5 focus:border-[#6A64F1] focus:shadow-md"
                   placeholder="Enter Your last name"
                   required=""
                 />
               </div>
             </div>
-            <div class="col-span-6 sm:col-span-3">
+            <div className="col-span-6 sm:col-span-3">
               <label
-                for="phone-number"
-                class="text-sm font-medium text-gray-900 block mb-2"
+                htmlFor="phone-number"
+                className="text-sm font-medium text-gray-900 block mb-5"
               >
                 <b>Contact Number</b>
               </label>
@@ -92,15 +97,15 @@ function TMform() {
                 type="tel"
                 name="phone-number"
                 id="phone-number"
-                class="shadow-sm bg-gray-50 border text-gray-900 sm:text-sm rounded-lg focus:ring-cyan-600 focus:border-cyan-600 block w-full py-4 mb-6 placeholder:text-gray-700 pl-8 placeholder:text-base"
+                className="  w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none mb-5 focus:border-[#6A64F1] focus:shadow-md"
                 placeholder="+922222222222"
                 required=""
               />
             </div>
-            <div class="col-span-6 sm:col-span-3">
+            <div className="col-span-6 sm:col-span-3">
               <label
-                for="email"
-                class="text-sm font-medium text-gray-900 block mb-2"
+                htmlFor="email"
+                className="text-sm font-medium text-gray-900 block mb-5"
               >
                 <b>You Email</b>
               </label>
@@ -108,77 +113,244 @@ function TMform() {
                 type="email"
                 name="email"
                 id="email"
-                class="shadow-sm bg-gray-50 border  text-gray-900 sm:text-sm rounded-lg focus:ring-cyan-600 focus:border-cyan-600 block w-full py-4 mb-6  pl-8 placeholder:text-gray-700  placeholder:text-base"
+                className="  w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none mb-5 focus:border-[#6A64F1] focus:shadow-md"
                 placeholder="isharkhan601@gmail.com"
                 required=""
               />
             </div>
           </form>
+          <b>
+            <h1 className="flex items-center my-6">
+              Which option best describes your trademark?
+            </h1>
+          </b>
+          <div>
+            <label className="flex  text-gray-900 rounded-md px-3 py-2 my-3 cursor-pointer ">
+              <input type="radio" name="Country" />
+              <span className="pl-2">Logomark (Brand Logo or Graphics)</span>
+            </label>
 
-          <fieldset>
-            {/* <legend class="sr-only"></legend> */}
-            <b>
-              <h1 class="flex items-center my-6">Which option best describes your trademark?</h1>
-            </b>
-            <div class="flex items-center mb-4">
-              <input
-                id="country-option-2"
-                type="radio"
-                name="countries"
-                value="Germany"
-                class="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300  dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600"
-              />
-              <label
-                for="country-option-2"
-                class="block ms-2 text-sm font-medium text-gray-900"
-              >
-                Logomark (Brand Logo or Graphics)
-              </label>
-            </div>
-
-            <div class="flex items-center mb-4">
-              <input
-                id="country-option-3"
-                type="radio"
-                name="countries"
-                value="Spain"
-                class="w-4 h-4 border-gray-300 focus:ring-2   dark:bg-gray-700 dark:border-gray-600"
-              />
-              <label
-                for="country-option-3"
-                class="block ms-2 text-sm font-medium text-gray-900 "
-              >
+            <label className="flex  text-gray-900 rounded-md px-3 py-2 my-3  cursor-pointer ">
+              <input type="radio" name="Country" />
+              <span className="pl-2">
                 Wordmark (Brand Name or slogan in text)
-              </label>
-            </div>
+              </span>
+            </label>
 
-            <div class="flex items-center mb-4">
-              <input
-                id="country-option-4"
-                type="radio"
-                name="countries"
-                value="United Kingdom"
-                class="w-4 h-4 border-gray-300 focus:ring-2  dark:focus-ring-blue-600 dark:bg-gray-700 dark:border-gray-600"
-              />
+            <label className="flex  text-gray-900 rounded-md px-3 py-2 my-3 cursor-pointer ">
+              <input type="radio" name="Country" />
+              <span className="pl-2">Logo and Brand name combined</span>
+            </label>
+          </div>
+          <div className="mb-5">
+            <label
+              for=""
+              className="mb-3 block text-base font-medium text-[#07074D]"
+            >
+              Name of Trademark (Brand Name) *
+            </label>
+            <input
+              type="text"
+              name="Brand Name"
+              id="Brand Name"
+              placeholder="Brand Name"
+              className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+            />
+          </div>
+          <div className="mb-6 ">
+            <label className="mb-5 block text-xl font-semibold text-[#07074D]">
+              Upload Logo
+            </label>
+
+            <div className="mb-8">
+              <input type="file" name="file" id="file" className="sr-only" />
               <label
-                for="country-option-4"
-                class="block ms-2 text-sm font-medium text-gray-900 "
+                for="file"
+                className="relative flex min-h-[200px] items-center justify-center rounded-md border border-dashed border-[#e0e0e0]  text-center"
               >
-                Logo and Brand name combined
+                <div>
+                  <span className="mb-2 block text-xl font-semibold text-[#07074D]">
+                    Drop Logo files here
+                  </span>
+                  <span className="mb-2 block text-base font-medium text-[#6B7280]">
+                    In
+                  </span>
+                  <span className="inline-flex rounded border border-[#e0e0e0] py-2 px-7 text-base font-medium text-[#07074D]">
+                    Click
+                  </span>
+                </div>
               </label>
             </div>
-          </fieldset>
-        </div>
 
-        <div class="p-6 border-t border-gray-200 rounded-b">
+            <b>
+              <h1 className="flex items-center my-6">
+                Please select the entity type which best explains the owner. If
+                your entity type is not one of the options please select "Other"{" "}
+                <br />
+                and provide your entity type
+              </h1>
+            </b>
+
+            <div>
+              <label className="flex  text-gray-900 rounded-md px-3 py-2 my-3 cursor-pointer ">
+                <input type="radio" name="Country" />
+                <span className="pl-2">Individual Person</span>
+              </label>
+
+              <label className="flex  text-gray-900 rounded-md px-3 py-2 my-3  cursor-pointer ">
+                <input type="radio" name="Country" />
+                <span className="pl-2">Company</span>
+              </label>
+
+              <label className="flex  text-gray-900 rounded-md px-3 py-2 my-3 cursor-pointer ">
+                <input type="radio" name="Country" />
+                <span className="pl-2">Partnership</span>
+              </label>
+
+              <label className="flex  text-gray-900 rounded-md px-3 py-2 my-3 cursor-pointer ">
+                <input type="radio" name="Country" />
+                <span className="pl-2">Trust/NGO</span>
+              </label>
+              <label className="flex  text-gray-800 rounded-md px-3 py-2 my-3 cursor-pointer ">
+                <input type="radio" name="Country" />
+                <span className="pl-2">Other</span>
+              </label>
+            </div>
+          </div>
+          <div className="mb-5">
+            <label
+              for=""
+              className="mb-3 block text-base font-medium text-[#07074D]"
+            >
+              <b>Name of the owner (Write your LLC name in case of LLC ) *</b>
+            </label>
+            <input
+              type="text"
+              name="LLC Name"
+              id="LLC Name"
+              placeholder="Name of The Owner (The name who will own this trade mark)"
+              className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+            />
+          </div>
+          <div className="mb-5">
+            <label
+              for=""
+              className="mb-3 block text-base font-medium text-[#07074D]"
+            >
+              Please add the address of the owner.
+            </label>
+            <input
+              type="text"
+              name="address"
+              id="address"
+              placeholder=""
+              className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none  focus:border-[#6A64F1] focus:shadow-md"
+            />
+          </div>
+          Address Line 1
+          <div className="grid grid-cols-6 gap-6">
+            <div className="col-span-6 sm:col-span-3">
+              <input
+                type="text"
+                name="City"
+                id="City"
+                className="  w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none mb-2 focus:border-[#6A64F1] focus:shadow-md"
+                placeholder=""
+                required=""
+              />
+              City
+            </div>
+            <div className="col-span-6 sm:col-span-3">
+              <select className=" w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none mb-2 focus:border-[#6A64F1] focus:shadow-md">
+                <option value="swabi">Your City Name</option>
+                <option value="swabi">Your City Name</option>
+                <option value="swabi">Your City Name</option>
+                <option value="swabi">Your City Name</option>
+                <option value="swabi">Your City Name</option>
+                <option value="swabi">Your City Name</option>
+                <option value="swabi">Your City Name</option>
+                <option value="swabi">Your City Name</option>
+                <option value="swabi">Your City Name</option>
+                <option value="swabi">Your City Name</option>
+                <option value="swabi">Your City Name</option>
+                <option value="swabi">Your City Name</option>
+                <option value="swabi">Your City Name</option>
+                <option value="swabi">Your City Name</option>
+                <option value="swabi">Your City Name</option>
+                <option value="swabi">Your City Name</option>
+                <option value="swabi">Your City Name</option>
+                <option value="swabi">Your City Name</option>
+              </select>
+              State
+            </div>
+
+            <div className="col-span-6 sm:col-span-3">
+              <input
+                type="zip"
+                name="Zip"
+                id="Zip"
+                className="  w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none mb-2 focus:border-[#6A64F1] focus:shadow-md"
+                placeholder=""
+                required=""
+              />
+              Zip Code
+            </div>
+          </div>
+          <div className="mb-5">
+            <label
+              for=""
+              className="mb-3 block text-base font-medium text-[#07074D]"
+            >
+              <b>
+                Name and Position of the person who will sign the authorization*
+              </b>
+            </label>
+            <input
+              type="text"
+              name="authorization"
+              id="authorization"
+              placeholder="f the owner is a company, must be a person in the senior management or owner of the company."
+              className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+            />
+          </div>
+          <div className="mb-5">
+            <label
+              for=""
+              className="mb-3 block text-base font-medium text-[#07074D]"
+            >
+              <b>What products or services do you sell under this brand?</b>
+            </label>
+            <input
+              type="text"
+              name="products"
+              id="products"
+              placeholder="Tell us about the products or services which you will sell under the brand name."
+              className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+            />
+          </div>
+          <b>
+            <h1 className="flex items-center my-6">
+              Are you using this brand right now or you are planning to use it
+              in future?
+            </h1>
+          </b>
+          <label className="flex  text-gray-900 rounded-md px-3  cursor-pointer ">
+            <input type="radio" name="Country" />
+            <span className="pl-2">Yes</span>
+          </label>
+          <label className="flex  text-gray-900 rounded-md px-3   cursor-pointer ">
+            <input type="radio" name="Country" />
+            <span className="pl-2">No</span>
+          </label>
           <button
-            class="text-white bg-cyan-600 hover:bg-cyan-700 focus:ring-4 focus:ring-cyan-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center"
             type="submit"
+            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded"
           >
-            Save all
+            Submit
           </button>
         </div>
       </div>
+      </section>
     </>
   );
 }
