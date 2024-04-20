@@ -26,7 +26,7 @@ function Footer() {
           </Link>
         </nav>
 
-        <div className="inline-flex  justify-end p-6 space-x-4">
+        <div className="inline-flex   justify-end p-6 space-x-4 ">
           <a
             href="https://facebook.com"
             target="_blank"
