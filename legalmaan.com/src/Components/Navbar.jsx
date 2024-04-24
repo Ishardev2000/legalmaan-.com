@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import image from "./images.png";
+
 function Navbar() {
   // State to manage navbar visibility on small screens
   const [isNavbarVisible, setIsNavbarVisible] = useState(false);
@@ -18,7 +18,11 @@ function Navbar() {
       >
         <div className="container flex flex-wrap justify-between items-center mx-auto">
           <Link to="/" className="flex items-center">
-            <img src={image} className="mr-1 h-14 sm:h-15" alt="Flowbite Logo" />
+            <img
+              src="/src/Components/images.png"
+              className="mr-1 h-14 sm:h-15"
+              alt="Flowbite Logo"
+            />
             <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-black">
               Yamman Muhammad
             </span>
@@ -106,7 +110,7 @@ function Navbar() {
                   to="design"
                   className=" text-base   block py-2 pr-4 pl-3 text-black rounded hover:bg-gray-300 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-black dark:hover:text-gray-700"
                 >
-                 Design Patent Form
+                  Design Patent Form
                 </Link>
               </li>
               <li>

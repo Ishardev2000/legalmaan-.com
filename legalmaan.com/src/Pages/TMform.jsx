@@ -144,7 +144,7 @@ function TMform() {
             </div>
             <div className="mb-5">
               <label
-                for=""
+                htmlFor=""
                 className="mb-3 block text-base font-medium text-[#07074D]"
               >
                 Name of Trademark (Brand Name) *
@@ -165,7 +165,7 @@ function TMform() {
               <div className="mb-8">
                 <input type="file" name="file" id="file" className="sr-only" />
                 <label
-                  for="file"
+                  htmlFor="file"
                   className="relative flex min-h-[200px] items-center justify-center rounded-md border border-dashed border-[#e0e0e0]  text-center"
                 >
                   <div>
@@ -219,7 +219,7 @@ function TMform() {
             </div>
             <div className="mb-5">
               <label
-                for=""
+                htmlFor=""
                 className="mb-3 block text-base font-medium text-[#07074D]"
               >
                 <b>Name of the owner (Write your LLC name in case of LLC ) *</b>
@@ -234,7 +234,7 @@ function TMform() {
             </div>
             <div className="mb-5">
               <label
-                for=""
+                htmlFor=""
                 className="mb-3 block text-base font-medium text-[#07074D]"
               >
                 Please add the address of the owner.
@@ -298,7 +298,7 @@ function TMform() {
             </div>
             <div className="mb-5">
               <label
-                for=""
+                htmlFor=""
                 className="mb-3 block text-base font-medium text-[#07074D]"
               >
                 <b>
@@ -316,7 +316,7 @@ function TMform() {
             </div>
             <div className="mb-5">
               <label
-                for=""
+                htmlFor=""
                 className="mb-3 block text-base font-medium text-[#07074D]"
               >
                 <b>What products or services do you sell under this brand?</b>

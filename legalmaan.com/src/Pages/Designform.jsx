@@ -95,7 +95,7 @@ function Designform() {
 
             <div className="mb-5">
               <label
-                for=""
+                htmlFor=""
                 className="mb-3 block text-base font-medium text-[#07074D]"
               >
                 <h1>
@@ -201,7 +201,7 @@ function Designform() {
             </div>
             <div className="mb-5">
               <label
-                for=""
+                htmlFor=""
                 className="mb-3 block text-base font-medium text-[#07074D]"
               >
                 <b>Phone</b>
@@ -216,7 +216,7 @@ function Designform() {
             </div>
             <div className="mb-5">
               <label
-                for=""
+                htmlFor=""
                 className="mb-3 block text-base font-medium text-[#07074D]"
               >
                 <b>Email *</b>
@@ -307,7 +307,7 @@ function Designform() {
               <div className="mb-8">
                 <input type="file" name="file" id="file" className="sr-only" />
                 <label
-                  for="file"
+                  htmlFor="file"
                   className="relative flex min-h-[200px] items-center justify-center rounded-md border border-dashed border-[#e0e0e0]  text-center"
                 >
                   <div>

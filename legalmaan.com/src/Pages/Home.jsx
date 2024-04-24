@@ -10,7 +10,7 @@ function Home() {
         <section className=" bg-[#fefafa] py-8">
           <div className="container mx-auto  flex px-10 py-19 md:flex-row flex-col items-center">
             <div className="ml-15 lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-20 md:mb-0 items-center text-center">
-              <h1 className="title-font sm:text-7xl text- mb-15 font-bold font-serif text-gray-900 ">
+              <h1 className="title-font sm:text-7xl mb-15 font-bold font-serif text-gray-900 ">
                 <b> Hey, I'm Yamman </b>
               </h1>
 
