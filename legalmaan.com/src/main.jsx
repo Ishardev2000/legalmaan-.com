@@ -6,11 +6,11 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
-import Designform from "./Pages/Designform";
 import TMform from "./Pages/TMform";
 import Portfolio from "./Pages/Portfolio";
 import Home from "./Pages/Home";
 import Layout from "./layout.jsx";
+import Designform from "./Pages/Designform.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <BrowserRouter>

@@ -33,34 +33,36 @@ function Home() {
         </section>
 
         {/* this is the Home page simple content */}
-        <section className="py-25 mt-20">
-          <div className="flex flex-col items-center text-center justify-center h-screen p-20">
-            <h1 className="text-5xl font-bold text-gray-800 mb-4 underline-offset-1 decoration-black font-serif">
-              Who I AM?
-            </h1>
-            <span className="h-1 w-36 mb-10 bg-gray-900"></span>
-            <p className="text-gray-700 text-lg mb-10">
-              I have studied law at one of the prestigious law colleges & have
-              always been passionate about drafting legal documents.The online
-              world has helped me put my knowledge & passion into practice by
-              letting me draft over 1000+ international legal documents for
-              clients worldwide in different legal domains. I listen closely to
-              your problems and use my expertise to solve your legal issues by
-              providing legal writing and consultation services. Until Now, I
-              have legally protected 35 businesses by registering their
-              trademarks and drafting contracts, advising many individuals
-              regarding litigations, and helping several students by writing
-              legal articles and essays.Do you need help with any legal issues?
-            </p>
-            <br /> <b> Connect to Protect Yourself and Your Business! </b>
-            <div className="flex justify-center">
-              <Btn btnText={"Contect Me"} />
-            </div>
-          </div>
-        </section>
+        <section className="mt-20 ">
+  <div className="flex flex-col items-center text-center justify-center h-screen p-20">
+    <h1 className="text-5xl sm:font-medium font-bold text-gray-800 mb-4 underline-offset-1 decoration-black font-serif">
+      Who I AM?
+    </h1>
+    <span className="h-1 w-36 mb-10 bg-gray-900"></span>
+    <p className="text-gray-700 text-lg mb-10">
+      I have studied law at one of the prestigious law colleges & have
+      always been passionate about drafting legal documents.The online
+      world has helped me put my knowledge & passion into practice by
+      letting me draft over 1000+ international legal documents for
+      clients worldwide in different legal domains. I listen closely to
+      your problems and use my expertise to solve your legal issues by
+      providing legal writing and consultation services. Until Now, I
+      have legally protected 35 businesses by registering their
+      trademarks and drafting contracts, advising many individuals
+      regarding litigations, and helping several students by writing
+      legal articles and essays.Do you need help with any legal issues?
+    </p>
+    <br /> 
+    <b> Connect to Protect Yourself and Your Business! </b>
+    <div className="flex justify-center mt-8">
+      <Btn btnText={"Contact Me"} />
+    </div>
+  </div>
+</section>
+
 
         {/* section Cards  */}
-        <section className="py-25 mt-20">
+        <section className="py-24 mt-20">
           <div className="px-10 py-10">
             <div id="features" className="mx-auto  max-w-6xl">
               {/* <p className="text-center text-base font-semibold leading-7 text-primary-500">Features</p> */}

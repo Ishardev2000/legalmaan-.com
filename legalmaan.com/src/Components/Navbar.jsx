@@ -1,21 +1,17 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import Btn from "../Cardscomponents/Btn";
 
-function Navbar() {
-  // State to manage navbar visibility on small screens
+function Navbar({ isContactPage }) {
   const [isNavbarVisible, setIsNavbarVisible] = useState(false);
 
-  // Toggle visibility
   const toggleNavbar = () => {
     setIsNavbarVisible(!isNavbarVisible);
   };
 
   return (
     <section className="bg-[#fefafa]">
-      <nav
-        className="bg-[#fefafa] border-gray-200 px-2 sm:px-4  py-1 rounded 
-    "
-      >
+      <nav className="bg-[#fefafa] border-gray-200 px-2 sm:px-4 py-1 rounded">
         <div className="container flex flex-wrap justify-between items-center mx-auto">
           <Link to="/" className="flex items-center">
             <img
@@ -28,12 +24,11 @@ function Navbar() {
             </span>
           </Link>
           <div className="flex md:order-2">
-            <button
-              src="contact"
+          <button
               type="button"
-              className="text-white bg-black hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-black dark:hover:bg-gray-400 hover:text-black dark:focus:ring-blue-800"
+              className="hidden sm:block mb-9"
             >
-              Contact Now
+              <Btn btnText={"Contect Me"} />
             </button>
             <button
               data-collapse-toggle="navbar-cta "
@@ -47,7 +42,6 @@ function Navbar() {
               aria-expanded="false"
               onClick={toggleNavbar}
             >
-              <span className="sr-only">Open main menu</span>
               <svg
                 className="w-6 h-6"
                 fill="none"
